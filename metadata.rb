@@ -5,5 +5,3 @@ description       "Installs and configures nvm"
 version           "0.1.0"
 
 recipe "nvm", "Installs Node Version Manager"
-
-depends "git"
