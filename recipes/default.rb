@@ -1,6 +1,7 @@
 git node[:nvm][:dir] do
   repository node[:nvm][:repository]
   reference node[:nvm][:version]
+  group "nvm"
   action :sync
 end
 
