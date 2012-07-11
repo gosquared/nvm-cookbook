@@ -12,3 +12,4 @@ node[:nvm][:nodejs_versions].each do |version|
 end
 
 execute "chmod -R g+w #{node[:nvm][:dir]}"
+execute "chgrp -R nvm #{node[:nvm][:dir]}"
